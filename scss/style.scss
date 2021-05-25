@@ -563,21 +563,90 @@ a{
 	color: #FFFFFF;
 }
 .form {
-	width: 60%;
-	padding: 50px;
-	display: flex;
-	justify-content: center;
-}
-.form__input{
-	max-width: 642px;
+	// max-width: 950px;
 	height: 70px;
-	border: none;
+	width: 45%;
+	display: flex;
+	justify-content: space-between;
+	background: #FFFFFF;
+	border-radius: 5px;
 }
+
+.form__input{
+	margin: 10px 0 0px 15px;
+	max-width: 500px;
+	height: 50px;
+	border: none;	
+	@include font_text;
+
+}
+.form__input:focus{
+    outline: 0;
+}
+
 .form__btn{
 	@include font_menu;
 	background: #FF5300;
 	color: #FFFFFF;
-	padding: 15px 30px;
+	padding: 10px 30px;
 	filter: drop-shadow(4px 5px 15px rgba(255, 83, 0, 0.1));
 	border: none;
+	border-radius: 5px;
+	margin: 5px 5px 5px 0;
+	align-items: center;
+}
+.form__btn:hover {
+	padding: 7px 29px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} 
+
+.footer{
+	display: block;
+}
+.footer-block {
+	display: flex;
+	padding: 60px;
+	width: 100%;
+	justify-content: space-between;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(Daco_1772774.png);
+}
+.footer__about_us {
+	display: block;
+	width: 23%;
+	padding: 5px;
+}
+.footer__description {
+	@include font_text;
+	color: #FFFFFF;
+}
+.footer__big_imges {}
+.footer__img {}
+.footer__contacts {
+	display: block;
+	width: 22%;
+	padding: 5px;
+}
+.footer__contacts3 {
+	display: block;
+	width: 33%;
+	padding: 5px;
+}
+.footer__h4 {
+	@include font_h4;
+	color: #FF5300;
+	margin-bottom: 1em;
+}
+.footer__text {
+	@include font_menu;
+	color: #FFFFFF;
+}
+.footer__imges img{
+	margin: 0 5px;
+}
+
+.footer__border{
+	border: 1px solid #FFFFFF;
+	width: 100%;
+	height: 0;
+	padding: 2em 0;
 }
