@@ -5,20 +5,20 @@ let btn = document.querySelector('#SubscribeBtn');
   let input = document.querySelector('#input');
   let form = document.querySelector('#form');
 
-  form.onsubmit = function(evt){
-    if(input.value == ''){
-      evt.preventDefaut();
-    }else {modal.style.display = 'flex';
-    }
-  }
+  // form.onsubmit = function(evt){
+  //   if(input.value == ''){
+  //     evt.preventDefaut();
+  //   }else {modal.style.display = 'flex';
+  //   }
+  // }
 
 
-  // btn.addEventListener('click', function() {
-  // 	if (input.value == '') {
-  // 		return false;
-  // 	}else {modal.style.display = 'flex';
-  // 	}
-  // });
+  btn.addEventListener('click', function() {
+  	if (input.value == '') {
+  		return false;
+  	}else {modal.style.display = 'flex';
+  	}
+  });
 
   cloceBtn.addEventListener('click', function() { 
   	modal.style.display = 'none';

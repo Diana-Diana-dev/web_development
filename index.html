@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Disign</title>
 </head>
-<body>
+<body class="body">
 	<div class="wrapper">
 		<header id="header" class="heder">
 			<div class="conteiner">
@@ -295,7 +295,7 @@ odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
 				</div>
 					<h2 class="OurBlog__h2">Every Singel Update From Here</h2>
 					<div class="blog">
-						<div class="blog__item">
+						<div id="text" class="blog__item">
 							<div class="blog__imges">
 								<img class="blog__img" src="img/Image(12).png" alt="">
 							</div>
@@ -314,10 +314,10 @@ odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
 								<p class="blog__date_text">10 Comment</p>	
 								</div>
 							</div>
-							<p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est.</p>
-							<button  class="blog__btn">Read More</button>
+							<p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est.<span id="dots">...</span><span id="more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est.</span></p>
+							<button  id="buttonText" class="blog__btn" onclick="readMore()">Read More</button>
 						</div>
-							<div class="blog__item">
+						<div id="text2" class="blog__item">
 							<div class="blog__imges">
 								<img class="blog__img" src="img/Image(13).png" alt="">
 							</div>
@@ -336,10 +336,10 @@ odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
 								<p class="blog__date_text">10 Comment</p>	
 								</div>
 							</div>
-							<p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est.</p>
-							<button class="blog__btn">Read More</button>
+							<p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est.<span id="dots2">...</span><span id="more2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est.</span></p>
+							<button id="buttonText" class="blog__btn" onclick="readMore2()">Read More</button>
 						</div>
-								<div class="blog__item">
+						<div id="text3" class="blog__item">
 							<div class="blog__imges">
 								<img class="blog__img" src="img/Image(14)-min.png" alt="">
 							</div>
@@ -358,8 +358,8 @@ odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
 								<p class="blog__date_text">10 Comment</p>	
 								</div>
 							</div>
-							<p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est.</p>
-							<button class="blog__btn">Read More</button>
+							<p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est.<span id="dots3">...</span><span id="more3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est.</span></p>
+							<button id="buttonText" class="blog__btn" onclick="readMore3()">Read More</button>
 						</div>
 					</div>
 			</section>
@@ -369,7 +369,7 @@ odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
 						<p class="Subscribe__text">Subscribe Newsletter</p>
 						<h2 class="Subscribe__h2">Lets Stay In Touch</h2>
 					</div>
-					<form class="form" method="post" id="form" action="#">
+					<form class="form" method="" id="form" action="#">
 						<input id="input" class="form__input" type="email" name="" placeholder="Enter your email" required="">
 					<button id="SubscribeBtn"  class="form__btn" type="submit">Subscribe Now</button>	
 					</form>
@@ -422,7 +422,7 @@ odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
               		</div>	
         </div>      
     </div>	
-
+<script src="js/read_more.js"></script>
 <script src="js/btn_submite.js"></script>	
 <script src="js/script.js"></script>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>

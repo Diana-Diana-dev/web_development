@@ -81,7 +81,10 @@ a{
     padding: 0px;
     margin: 0px;
 }
-
+.body{
+	overflow-x: hidden;
+	overflow-y: scroll !important;
+}
 .heder {
 	width: 100%;
     top: 0;
@@ -474,13 +477,28 @@ a{
 	justify-content: center;
 	margin-bottom: 2em;
 }
+
+#more{
+  display: none;
+}
+
+#more2{
+  display: none;
+}
+
+#more3{
+  display: none;
+}
+
 .blog {
 	display: flex;
 	justify-content: space-between;
 	padding: 3px;
 	margin-bottom: 5em;
+
 }
 .blog__item {
+	width: 30%;
 	display: block;
 	padding: 5px;
 	margin: 10px;
@@ -488,6 +506,7 @@ a{
 	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
 	padding-left: 15px;
+	position: relative;
 }
 .blog__imges {
 	max-width: 340px;
@@ -522,6 +541,7 @@ a{
 .blog__text {
 	@include font_text;
 	margin-bottom: 1em;
+	display: block;
 }
 .blog__btn {
 	padding: 10px 30px;
@@ -537,6 +557,7 @@ a{
 .blog__btn:hover {
 	padding: 8px 28px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 } 
 
 .Subscribe {
