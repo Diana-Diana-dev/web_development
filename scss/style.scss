@@ -119,6 +119,9 @@ a{
 .header__link {
 	@include font_menu;
 }
+.header__link:hover {
+	transform: scale(1.2);
+}
 .header__btn {
 	right: 0;
 	
@@ -155,6 +158,10 @@ a{
     @include font_menu;
     color: #FFFFFF;
 }
+.WhatMatters__btn:hover {
+	padding: 8px 22px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} 
 .WhatMatters__imges {
 	max-width: 553px;
     max-height: 471px;
@@ -300,6 +307,7 @@ a{
 }
 .OurProject__link:hover {
 	background: #FF5300; 
+	transition: 1s;
 }
 .OurProject__link:focus {
 	background: #FF5300; 
@@ -516,8 +524,6 @@ a{
 	margin-bottom: 1em;
 }
 .blog__btn {
-	// width: 150px;
-	// height: 50px;
 	padding: 10px 30px;
 	filter: drop-shadow(4px 5px 15px rgba(255, 83, 0, 0.1));
 	@include font_menu;
@@ -528,6 +534,10 @@ a{
 	border: none;
 	text-align: center;
 }
+.blog__btn:hover {
+	padding: 8px 28px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} 
 
 .Subscribe {
 	display: flex;
@@ -601,14 +611,16 @@ a{
 } 
 
 .footer{
-	display: block;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(Daco_1772774.png);
+	width: 100%;
+	padding: 60px 0;
 }
 .footer-block {
 	display: flex;
-	padding: 60px;
-	width: 100%;
 	justify-content: space-between;
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(Daco_1772774.png);
+	margin-bottom: 3em;
+	margin-left: 68.5px;
+	margin-right: 68.5px;
 }
 .footer__about_us {
 	display: block;
@@ -645,8 +657,94 @@ a{
 }
 
 .footer__border{
+
 	border: 1px solid #FFFFFF;
-	width: 100%;
-	height: 0;
-	padding: 2em 0;
+	max-width: 1170px;
+	height: 0px;
+	margin-left: 68.5px;
+	margin-right: 68.5px;
+}
+
+
+
+
+
+
+.modal {
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+  	position: absolute;
+  	justify-content: center;
+  	width: 100%;
+  	height: 100%; 
+  	top: 0;
+  	left: 0;
+    position: fixed;
+    perspective: 500px;
+/*  opacity: 0;*/
+  /*visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.8s ease 0s;*/
+}
+.modal .modal-wrapper {
+	width: 50%;
+	height: 40%;
+	max-width: 400px;
+	min-height: 300px;
+	top: 30%;
+	background: #FFFFFF;
+	position: absolute;
+	box-shadow: 0px 0px 13px 0px rgba(255, 83, 0,0.4);
+	border-radius: 10px;
+	border: 2px solid #FF5300;
+	transform: rotateX(0deg);
+	animation-name: modal;
+	animation-duration: 1s;
+}
+.modal-header {
+	padding: 20px;
+}
+.closeBtn {
+	cursor: pointer;
+	float: right;
+	font-size: 40px;
+	color: black;
+
+}
+.modal-body {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+	margin-top: 1em;
+	display: flex;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: bold;
+	font-weight: 700;
+	font-size: 39px;
+	line-height: 150%;
+	color: #373737;
+}
+.modal-footer {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.modal-close:hover {
+	transform: scale(1.2);
+
+}
+
+@keyframes modal {
+	from {
+		opacity: 0;
+		top: 10%;
+		transform: rotateX(15deg);
+	}
+	to {
+		opacity: 1;
+		top: 30%;
+		transform: rotateX(0deg);
+	}
 }

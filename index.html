@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="wrapper">
-		<header class="heder">
+		<header id="header" class="heder">
 			<div class="conteiner">
 				<div class="header__body">
 					<a href="" class="header__logo">
@@ -21,11 +21,11 @@
 							<nav class="header__menu">
 								<ul class="header__list">
 									<li><a href="" class="header__link" >Home</a></li>
-									<li><a href="" class="header__link" >About Us</a></li>
-									<li><a href="" class="header__link" >Services</a></li>
-									<li><a href="" class="header__link" >Portfolio</a></li>
-									<li><a href="" class="header__link" >Blog</a></li>
-									<li><a href="" class="header__link" >Contact Us</a></li>
+									<li><a href="#About_Us" class="header__link" >About Us</a></li>
+									<li><a href="#Services" class="header__link" >Services</a></li>
+									<li><a href="#Portfolio" class="header__link" >Portfolio</a></li>
+									<li><a href="#blog" class="header__link" >Blog</a></li>
+									<li><a href="#Contact_Us" class="header__link" >Contact Us</a></li>
 								</ul>
 							</nav>
 					<div class="header__btn">
@@ -54,6 +54,7 @@ odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
 			</section>
 
 			<section>
+				<a name="Services"></a>
 				<div class="border">
 					<p class="borderText">Our Services</p>
 				</div>
@@ -124,6 +125,7 @@ odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
 			</section>
 
 			<section>
+				<a name="About_Us"></a>
 				<div class="border">
 					<p class="borderText">Our Case Study</p>
 				</div>
@@ -213,7 +215,9 @@ odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
 							</div>
 						</div>
 			</section>
+
 			<section class="OurCapabilities">
+				<a name="Portfolio"></a>
 				<div class="OurCapabilities__description">
 					<div class="border">
 						<p class="borderText2">Our Capabilities</p>
@@ -285,6 +289,7 @@ odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
 			</section>
 
 			<section>
+				<a name ="blog"></a>
 				<div class="border">
 					<p class="borderText">Our Blog</p>					
 				</div>
@@ -364,15 +369,16 @@ odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
 						<p class="Subscribe__text">Subscribe Newsletter</p>
 						<h2 class="Subscribe__h2">Lets Stay In Touch</h2>
 					</div>
-					<form class="form">
-						<input class="form__input" type="email" name="" placeholder="Enter your email" required="">
-						<button class="form__btn" type="submit">Subscribe Now</button>
+					<form class="form" method="post" id="formid">
+						<input id="input" class="form__input" type="email" name="" placeholder="Enter your email" required="">
+					<button id="SubscribeBtn"  class="form__btn" type="submit">Subscribe Now</button>	
 					</form>
 				
 			</section>
 </main>
 	</div>
 <footer class="footer">
+	<a name="Contact_Us"></a>
 	<div class="footer-block">
 	<div class="footer__about_us">
 		<div class="footer__big_imges">
@@ -403,9 +409,22 @@ odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
 </footer>
 
 
-		
-	
+<div id="myModal" class="modal">
+        <div class="modal-wrapper">
+        	<div class="modal-header">
+      			<span id="closeBtn" class="closeBtn">&times;</span>
+      		</div>	
+            	<div class="modal-body">
+          			<p class="">Successfull sent</p>
+            	</div>
+            		<div class="modal-footer">
+              			<img id="modal-close" class="modal-close"  src="img/Vector.jpg">
+              		</div>	
+        </div>      
+    </div>	
 
+<script src="js/btn_submite.js"></script>	
+<script src="js/script.js"></script>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 

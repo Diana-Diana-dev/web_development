@@ -71,6 +71,11 @@ a {
   color: #373737;
 }
 
+.header__link:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .header__btn {
   right: 0;
 }
@@ -144,6 +149,12 @@ a {
   line-height: 150%;
   color: #373737;
   color: #FFFFFF;
+}
+
+.WhatMatters__btn:hover {
+  padding: 8px 22px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .WhatMatters__imges {
@@ -446,6 +457,8 @@ a {
 
 .OurProject__link:hover {
   background: #FF5300;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .OurProject__link:focus {
@@ -913,6 +926,12 @@ a {
   text-align: center;
 }
 
+.blog__btn:hover {
+  padding: 8px 28px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .Subscribe {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1039,20 +1058,22 @@ a {
 }
 
 .footer {
-  display: block;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.95)), to(rgba(0, 0, 0, 0.95))), url(Daco_1772774.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(Daco_1772774.png);
+  width: 100%;
+  padding: 60px 0;
 }
 
 .footer-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 60px;
-  width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.95)), to(rgba(0, 0, 0, 0.95))), url(Daco_1772774.png);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(Daco_1772774.png);
+  margin-bottom: 3em;
+  margin-left: 68.5px;
+  margin-right: 68.5px;
 }
 
 .footer__about_us {
@@ -1119,7 +1140,124 @@ a {
 
 .footer__border {
   border: 1px solid #FFFFFF;
+  max-width: 1170px;
+  height: 0px;
+  margin-left: 68.5px;
+  margin-right: 68.5px;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
-  height: 0;
-  padding: 2em 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  -webkit-perspective: 500px;
+          perspective: 500px;
+  /*  opacity: 0;*/
+  /*visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.8s ease 0s;*/
+}
+
+.modal .modal-wrapper {
+  width: 50%;
+  height: 40%;
+  max-width: 400px;
+  min-height: 300px;
+  top: 30%;
+  background: #FFFFFF;
+  position: absolute;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(255, 83, 0, 0.4);
+          box-shadow: 0px 0px 13px 0px rgba(255, 83, 0, 0.4);
+  border-radius: 10px;
+  border: 2px solid #FF5300;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  -webkit-animation-name: modal;
+          animation-name: modal;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.modal-header {
+  padding: 20px;
+}
+
+.closeBtn {
+  cursor: pointer;
+  float: right;
+  font-size: 40px;
+  color: black;
+}
+
+.modal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin-top: 1em;
+  display: flex;
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 150%;
+  color: #373737;
+}
+
+.modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+.modal-close:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@-webkit-keyframes modal {
+  from {
+    opacity: 0;
+    top: 10%;
+    -webkit-transform: rotateX(15deg);
+            transform: rotateX(15deg);
+  }
+  to {
+    opacity: 1;
+    top: 30%;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    top: 10%;
+    -webkit-transform: rotateX(15deg);
+            transform: rotateX(15deg);
+  }
+  to {
+    opacity: 1;
+    top: 30%;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
 }
