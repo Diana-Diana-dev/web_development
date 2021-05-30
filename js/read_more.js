@@ -17,8 +17,8 @@ if(dots.style.display === "none") {
 	dots.style.display = "none";
 	more.style.display = "block";
 	buttonText.innerHTML = "Скрыть";
-	// text.style.position = "absolute";
-	// text.style.z-index = 5;
+
+	 
 }
 }
 
@@ -41,8 +41,7 @@ if(dots2.style.display === "none") {
 	dots2.style.display = "none";
 	more2.style.display = "block";
 	buttonText2.innerHTML = "Скрыть";
-	// text.style.position = "absolute";
-	// text.style.z-index = 5;
+	
 }
 }
 
@@ -64,7 +63,6 @@ if(dots3.style.display === "none") {
 	dots3.style.display = "none";
 	more3.style.display = "block";
 	buttonText3.innerHTML = "Скрыть";
-	// text.style.position = "absolute";
-	// text.style.z-index = 5;
+	
 }
 }
