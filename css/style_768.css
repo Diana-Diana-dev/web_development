@@ -1,0 +1,414 @@
+@media screen and (max-width: 767px) {
+  .body {
+    max-width: 767px;
+  }
+
+  .wrapper {
+    max-width: 627px;
+    margin: 0 auto;
+  }
+
+  .WhatMatters {
+    display: block;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+
+  .WhatMatters__description {
+    display: block;
+    width: 100%;
+    padding: 0 5em 1em 0;
+  }
+
+  .WhatMatters__name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 100%;
+    color: #373737;
+    margin-bottom: 0, 5em;
+    padding-right: 10%;
+  }
+
+  .WhatMatters__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #7B7B7B;
+    margin-bottom: 2em;
+    padding-right: 3%;
+  }
+
+  .WhatMatters__btn {
+    display: block;
+    padding: 8px 19px;
+    background: #FF5300;
+    border-radius: 5px;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #373737;
+    color: #FFFFFF;
+  }
+
+  .border__h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 150%;
+    color: #373737;
+    margin-bottom: 1em;
+  }
+
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 4em;
+  }
+
+  .grid > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+
+  .grid > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+  }
+
+  .grid > *:nth-child(3) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+
+  .grid > *:nth-child(4) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+  }
+
+  .grid > *:nth-child(5) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+
+  .grid > *:nth-child(6) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+  }
+
+  .gridItems__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130%;
+    color: #7B7B7B;
+    padding-bottom: 1em;
+  }
+
+  .gridItems__bigText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #7B7B7B;
+    margin-bottom: 1em;
+  }
+
+  .OurServices {
+    display: block;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+
+  .OurServices__description {
+    display: block;
+    width: 100%;
+  }
+
+  .borderText2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #7B7B7B;
+    color: #FF5300;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .borderText2::before {
+    content: "";
+    border: 1px solid #FF5300;
+    width: 40px;
+    height: 0;
+    margin-right: 15px;
+  }
+
+  .OurServices__h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 150%;
+    color: #373737;
+    margin-bottom: 1em;
+    padding-right: 10%;
+  }
+
+  .OurServices__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #7B7B7B;
+    margin-bottom: 2em;
+    padding-right: 3%;
+  }
+
+  .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #7B7B7B;
+    margin-bottom: 1em;
+    color: #373737;
+  }
+
+  .OurProject__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 2em;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .OurCapabilities {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .OurCapabilities__description {
+    width: 100%;
+    padding: 5px 20px 5px 5px;
+  }
+
+  .OurCapabilities__h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 150%;
+    color: #373737;
+    margin-bottom: 1em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-right: 10%;
+  }
+
+  .OurCapabilities__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #7B7B7B;
+    margin-bottom: 1em;
+    padding-right: 3%;
+  }
+
+  .result {
+    margin-bottom: 3em;
+  }
+
+  .OurBlog__h2 {
+    margin-bottom: 1em;
+  }
+
+  .blog {
+    display: block;
+    padding: 3px;
+    margin-bottom: 3em;
+  }
+
+  .blog__item {
+    width: 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .blog__imges {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .adaptation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .adaptation1 {
+    display: block;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .Subscribe {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3em;
+    padding: 10px;
+  }
+
+  .Subscribe__name {
+    display: block;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .Subscribe__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #7B7B7B;
+    color: #FFFFFF;
+    margin-bottom: 0.5em;
+  }
+
+  .Subscribe__h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 150%;
+    color: #373737;
+    color: #FFFFFF;
+  }
+
+  .form {
+    height: 60px;
+    width: 85%;
+  }
+
+  .form__input {
+    margin: 10px 0 0px 15px;
+    max-width: 500px;
+    height: 40px;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #7B7B7B;
+  }
+
+  .form__input:focus {
+    outline: 0;
+  }
+
+  .form__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #373737;
+    background: #FF5300;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    -webkit-filter: drop-shadow(4px 5px 15px rgba(255, 83, 0, 0.1));
+            filter: drop-shadow(4px 5px 15px rgba(255, 83, 0, 0.1));
+    border: none;
+    border-radius: 5px;
+    margin: 5px 5px 5px 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5px;
+  }
+}

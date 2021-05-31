@@ -1,8 +1,15 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap");
+.body {
+  max-width: 1440px;
+  overflow-x: hidden;
+  overflow-y: scroll !important;
+}
+
 .wrapper {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 9.3%;
 }
 
 a {
@@ -12,11 +19,6 @@ a {
 * {
   padding: 0px;
   margin: 0px;
-}
-
-.body {
-  overflow-x: hidden;
-  overflow-y: scroll !important;
 }
 
 .heder {
@@ -41,11 +43,16 @@ a {
 }
 
 .header__logo {
-  width: 20%;
+  max-width: 186px;
+  max-height: 50px;
+}
+
+.header__logo img {
+  width: 100%;
 }
 
 .header__menu {
-  width: 60%;
+  width: 70%;
 }
 
 .header__list {
@@ -62,7 +69,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  margin-left: 2.8%;
+  margin-left: 2.5%;
 }
 
 .header__link {
@@ -73,7 +80,7 @@ a {
   font-style: medium;
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 130%;
   color: #373737;
 }
 
@@ -84,6 +91,7 @@ a {
 
 .header__btn {
   right: 0;
+  width: 18%;
 }
 
 .btn {
@@ -94,9 +102,9 @@ a {
   font-style: medium;
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 130%;
   color: #373737;
-  padding: 0.5em 1em;
+  padding: 0.5em 0.8em;
 }
 
 .WhatMatters {
@@ -110,7 +118,7 @@ a {
 .WhatMatters__description {
   display: block;
   width: 50%;
-  padding: 1em 3em 1em 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 .WhatMatters__name {
@@ -120,8 +128,8 @@ a {
   font-family: "Noto Sans KR", sans-serif;
   font-style: bold;
   font-weight: 700;
-  font-size: 48.83px;
-  line-height: 150%;
+  font-size: 45px;
+  line-height: 130%;
   color: #373737;
   margin-bottom: 0, 1em;
 }
@@ -152,7 +160,7 @@ a {
   font-style: medium;
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 130%;
   color: #373737;
   color: #FFFFFF;
 }
@@ -164,9 +172,9 @@ a {
 }
 
 .WhatMatters__imges {
-  max-width: 553px;
-  max-height: 471px;
-  padding: 0.5em;
+  max-width: 545px;
+  max-height: 468px;
+  padding: 1em;
 }
 
 .WhatMatters__img {
@@ -328,7 +336,7 @@ a {
 
 .OurServices__description {
   display: block;
-  width: 45%;
+  width: 50%;
   padding: 5px;
 }
 
@@ -410,7 +418,7 @@ a {
 .OurServices__imges {
   max-width: 575px;
   max-height: 388px;
-  padding: 30px 5px;
+  padding: 30px 10px;
 }
 
 .OurServices__img {
@@ -454,11 +462,13 @@ a {
   font-style: medium;
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 130%;
   color: #373737;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-radius: 10px;
   border: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .OurProject__link:hover {
@@ -657,7 +667,7 @@ a {
   font-style: medium;
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 130%;
   color: #373737;
   color: #FF5300;
 }
@@ -741,10 +751,13 @@ a {
   font-size: 25px;
   line-height: 150%;
   color: #373737;
-  display: block;
+  display: flex;
   color: #FF5300;
   margin-bottom: 1em;
-  text-align: center;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .OurCapabilities__section {
@@ -827,7 +840,7 @@ a {
   font-style: medium;
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 130%;
   color: #373737;
   color: #FFFFFF;
   -webkit-box-pack: center;
@@ -916,7 +929,7 @@ a {
   font-style: medium;
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 130%;
   color: #373737;
   margin-bottom: 1em;
 }
@@ -979,7 +992,7 @@ a {
   font-style: medium;
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 130%;
   color: #373737;
   background: #FF5300;
   border-radius: 5px;
@@ -1099,7 +1112,7 @@ a {
   font-style: medium;
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 130%;
   color: #373737;
   background: #FF5300;
   color: #FFFFFF;
@@ -1112,6 +1125,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 5px;
 }
 
 .form__btn:hover {
@@ -1135,14 +1149,15 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 3em;
-  margin-left: 68.5px;
-  margin-right: 68.5px;
+  margin-left: 4.7%;
+  margin-right: 4.7%;
 }
 
 .footer__about_us {
   display: block;
   width: 23%;
   padding: 5px;
+  margin: 5px;
 }
 
 .footer__description {
@@ -1162,12 +1177,14 @@ a {
   display: block;
   width: 22%;
   padding: 5px;
+  margin: 5px;
 }
 
 .footer__contacts3 {
   display: block;
-  width: 33%;
+  width: 50%;
   padding: 5px;
+  margin: 5px;
 }
 
 .footer__h4 {
@@ -1192,7 +1209,7 @@ a {
   font-style: medium;
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 130%;
   color: #373737;
   color: #FFFFFF;
 }

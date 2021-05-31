@@ -7,7 +7,7 @@
 	font-style: medium;
 	font-weight: 500;
 	font-size: 20px;
-	line-height: 150%;
+	line-height: 130%;
 	color: #373737;
 }
 
@@ -16,8 +16,8 @@
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: bold;
 	font-weight: 700;
-	font-size: 48.83px;
-	line-height: 150%;
+	font-size: 45px;
+	line-height: 130%;
 	color: #373737;
 }
 @mixin font_h2{
@@ -68,10 +68,16 @@
 	line-height: 188%;
 	color: #373737;
 }
+.body{
+	 max-width: 1440px;
+	overflow-x: hidden;
+	overflow-y: scroll !important;
+}
 
 .wrapper {
 	max-width: 1170px;
-	 margin: 0 auto;	
+	 margin: 0 auto;
+	 padding: 0 9.3%;	
 }
 a{
 	text-decoration: none;
@@ -81,10 +87,7 @@ a{
     padding: 0px;
     margin: 0px;
 }
-.body{
-	overflow-x: hidden;
-	overflow-y: scroll !important;
-}
+
 .heder {
 	width: 100%;
     top: 0;
@@ -103,11 +106,17 @@ a{
 
 }
 .header__logo {
-	width: 20%;
+	max-width: 186px;
+	max-height: 50px;
 }
+.header__logo img{
+	width: 100%;
+}
+
+
 .header__burger {}
 .header__menu {
-	width: 60%;
+	width: 70%;
 
 }
 .header__list {
@@ -117,7 +126,7 @@ a{
 .header__list li{
 	display: flex;
 	list-style: none;
-	margin-left: 2.8%;
+	margin-left: 2.5%;
 }
 .header__link {
 	@include font_menu;
@@ -127,11 +136,13 @@ a{
 }
 .header__btn {
 	right: 0;
-	
+	// width: 135px;
+	// height: 50px;
+	width: 18%;
 }
 .btn {
 	@include font_menu;
-    padding: 0.5em 1em;
+    padding: 0.5em 0.8em;
 }
 
 .WhatMatters {
@@ -142,7 +153,7 @@ a{
 .WhatMatters__description {
 	display: block;
 	width: 50%;
-	padding: 1em 3em 1em 1em;
+	padding: 1em 1em 1em 1em;
 }
 .WhatMatters__name {
 	@include font_name;
@@ -166,9 +177,9 @@ a{
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 } 
 .WhatMatters__imges {
-	max-width: 553px;
-    max-height: 471px;
-    padding: 0.5em;
+	max-width: 545px;
+    max-height: 468px;
+    padding: 1em;
 }
 .WhatMatters__img {
    width: 100%;
@@ -239,7 +250,7 @@ a{
 }
 .OurServices__description {
 	display: block;
-	width: 45%;
+	width: 50%;
 	padding: 5px;
 }
 .border {
@@ -282,7 +293,7 @@ a{
 .OurServices__imges {
 	max-width: 575px;
 	max-height: 388px;
-    padding: 30px 5px;
+    padding: 30px 10px;
 }
 
 .OurServices__img {
@@ -303,10 +314,10 @@ a{
 }
 .OurProject__link {
 	@include font_menu;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	border-radius: 10px;
 	border: none;
-
+	flex-wrap: wrap;
 }
 .OurProject__link:hover {
 	background: #FF5300; 
@@ -318,6 +329,7 @@ a{
 
 .OurProject__menu li{
 	list-style: none;
+
 }
 .OurProject__grid {
 	display: grid;
@@ -453,10 +465,11 @@ a{
 }
 .OurCapabilities__count {
 	@include font_h4;
-	display: block;
+	display: flex;
 	color: #FF5300;
 	margin-bottom: 1em;
-	text-align: center;
+	margin: 0 auto;
+	justify-content: center;
 }
 .OurCapabilities__section {
 	 @include font_SmallText;
@@ -544,7 +557,6 @@ a{
 	justify-content: space-between;
 	padding: 3px;
 	margin-bottom: 5em;
-
 }
 .blog__item {
 	width: 30%;
@@ -675,6 +687,7 @@ a{
 	border-radius: 5px;
 	margin: 5px 5px 5px 0;
 	align-items: center;
+	padding: 5px;
 }
 .form__btn:hover {
 	padding: 7px 29px;
@@ -690,13 +703,15 @@ a{
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 3em;
-	margin-left: 68.5px;
-	margin-right: 68.5px;
+	margin-left: 4.7%;
+	margin-right: 4.7%;
+
 }
 .footer__about_us {
 	display: block;
 	width: 23%;
 	padding: 5px;
+	margin: 5px;
 }
 .footer__description {
 	@include font_text;
@@ -708,11 +723,14 @@ a{
 	display: block;
 	width: 22%;
 	padding: 5px;
+	margin: 5px;
 }
 .footer__contacts3 {
 	display: block;
-	width: 33%;
+	width: 50%;
 	padding: 5px;
+	margin: 5px;
+
 }
 .footer__h4 {
 	@include font_h4;

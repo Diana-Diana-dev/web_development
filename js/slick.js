@@ -11,14 +11,14 @@ $(document).ready(function(){
 		  waitForAnimate:false,
 		  centerMode:false,
 		  variableWidth:false,
-   //       responsive: [
-   //      {
-   //   		 breakpoint:768,
-   //   		 settings:{
-   //       		slidesToShow:2,
-   //       		// arrows:false
-   //       	}
-   //       }
-   //     ]
+         responsive: [
+        {
+     		 breakpoint: 767,
+     		 settings: {
+          		slidesToShow: 2,
+          		 arrows: false
+          	}
+         }
+        ]
 	});
 });

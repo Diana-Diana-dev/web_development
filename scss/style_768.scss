@@ -1,0 +1,282 @@
+@media screen and (max-width: 767px){
+
+@mixin font_menu{
+	display: flex;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: medium;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150%;
+	color: #373737;
+}
+
+@mixin font_name{
+	display: flex;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: bold;
+	font-weight: 700;
+	font-size: 43px;
+	line-height: 100%;
+	color: #373737;
+}
+@mixin font_h2{
+	display: flex;
+    font-family: 'Noto Sans KR', sans-serif;
+	font-style: bold;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 150%;
+	color: #373737;
+
+}
+@mixin font_h4{
+	display: flex;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: bold;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 150%;
+	color: #373737;
+}
+
+@mixin font_text{
+	display: flex;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: medium;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150% ;
+	color: #7B7B7B;
+}
+
+@mixin font_SmallText{
+	display: flex;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 130%;
+	color: #7B7B7B;
+}
+@mixin font_MicroText{
+	display: flex;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10.5px;
+	line-height: 188%;
+	color: #373737;
+}
+  .body {
+    max-width: 767px;
+}
+.wrapper{
+    max-width: 627px;
+    margin: 0 auto;
+   
+}
+.WhatMatters {
+	display: block;
+	width: 100%;
+	margin-bottom: 3em;
+}
+.WhatMatters__description {
+	display: block;
+	width: 100%;
+	padding: 0 5em 1em 0;
+}
+
+.WhatMatters__name {
+	@include font_name;
+	margin-bottom: 0,5em;
+	padding-right: 10%;
+}
+.WhatMatters__text {
+	@include font_text;
+	margin-bottom: 2em;
+	padding-right: 3%;
+}
+.WhatMatters__btn {
+	display: block;
+	padding: 8px 19px;
+    background: #FF5300;
+    border-radius: 5px;
+    border: none;
+    @include font_menu;
+    color: #FFFFFF;
+}
+
+.border__h2{
+	@include font_h2;
+	margin-bottom: 1em;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	margin-bottom: 4em;
+}
+.gridItems__text {
+	@include font_SmallText;
+	padding-bottom: 1em;
+
+}
+.gridItems__bigText {
+	@include font_text;
+	margin-bottom: 1em;
+}
+.OurServices {
+	display: block;
+	width: 100%;
+	margin-bottom: 3em;
+}
+.OurServices__description {
+	display: block;
+	width: 100%;
+	
+}
+.borderText2 {
+	@include font_text;
+	color: #FF5300;
+	align-items: center;
+	justify-content: center;
+}
+.borderText2::before {
+	content: "";
+	border: 1px solid #FF5300;
+	width: 40px;
+	height: 0;
+	margin-right: 15px;	
+}
+.OurServices__h2 {
+	@include font_h2;
+	margin-bottom: 1em;
+	padding-right: 10%;
+}
+.OurServices__text {
+	@include font_text;
+	margin-bottom: 2em;
+	padding-right: 3%;
+}
+.OurServices__list {}
+.item {
+	@include font_text;
+	margin-bottom: 1em;
+	color: #373737;
+}
+ .OurProject__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2em;
+	flex-wrap: wrap;
+} 
+.OurCapabilities {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 2em;
+}
+.OurCapabilities__description{
+	width: 100%;
+	padding: 5px 20px 5px 5px;
+}
+.OurCapabilities__h2 {
+	@include font_h2;
+	margin-bottom: 1em;
+	justify-content: center;
+	padding-right: 10%;
+}
+.OurCapabilities__text {
+	@include font_text;
+	margin-bottom: 1em;
+	padding-right: 3%;
+}
+.result {
+	margin-bottom: 3em;
+}
+
+.OurBlog__h2 {
+	margin-bottom: 1em;
+}
+.blog {
+	display: block;
+	padding: 3px;
+	margin-bottom: 3em;
+}
+.blog__item {
+	width: 100%;
+	flex: none;
+	padding: 5px;
+	margin: 10px;
+}
+.blog__imges {
+	width: 50%;
+	padding: 10px;
+}
+.adaptation{
+	display: flex;
+}
+.adaptation1{
+	display: block;
+	width: 50%;
+	padding: 10px;
+}
+.Subscribe {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 3em;
+	padding: 10px;
+}
+.Subscribe__name {
+	display: block;
+	width: 100%;
+	padding: 30px;
+
+}
+.Subscribe__text {
+	@include font_text;
+	color: #FFFFFF;
+	margin-bottom: 0.5em;
+}
+
+.Subscribe__h2 {
+	@include font_h2;
+	color: #FFFFFF;
+}
+.form {
+	
+	height: 60px;
+	width: 85%;
+}
+
+.form__input{
+	margin: 10px 0 0px 15px;
+	max-width: 500px;
+	height: 40px;
+	border: none;	
+	@include font_text;
+
+}
+.form__input:focus{
+    outline: 0;
+}
+
+.form__btn{
+	@include font_menu;
+	background: #FF5300;
+	color: #FFFFFF;
+	padding: 10px 30px;
+	filter: drop-shadow(4px 5px 15px rgba(255, 83, 0, 0.1));
+	border: none;
+	border-radius: 5px;
+	margin: 5px 5px 5px 0;
+	align-items: center;
+	padding: 5px;
+}
+
+
+
+
+
+}
