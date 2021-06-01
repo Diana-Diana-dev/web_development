@@ -18,7 +18,13 @@ $(document).ready(function(){
           		slidesToShow: 2,
           		 arrows: false
           	}
+         },
+         {
+         	breakpoint: 319,
+     		 settings: {
+          		slidesToShow: 1
          }
+     }
         ]
 	});
 });

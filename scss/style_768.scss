@@ -230,7 +230,7 @@
 }
 .Subscribe__name {
 	display: block;
-	width: 100%;
+	width: 70%;
 	padding: 30px;
 
 }
@@ -245,14 +245,14 @@
 	color: #FFFFFF;
 }
 .form {
-	
+	margin-right: 5px;
 	height: 60px;
-	width: 85%;
+	width: 100%;
 }
 
 .form__input{
 	margin: 10px 0 0px 15px;
-	max-width: 500px;
+	max-width: 350px;
 	height: 40px;
 	border: none;	
 	@include font_text;
@@ -266,7 +266,6 @@
 	@include font_menu;
 	background: #FF5300;
 	color: #FFFFFF;
-	padding: 10px 30px;
 	filter: drop-shadow(4px 5px 15px rgba(255, 83, 0, 0.1));
 	border: none;
 	border-radius: 5px;
@@ -274,9 +273,111 @@
 	align-items: center;
 	padding: 5px;
 }
+.footer{
+	padding: 40px 0;
+}
+.footer-block {
+	margin-left: 4.7%;
+	margin-right: 4.7%;
+	
 
+}
+.footer__about_us {
+	display: block;
+	width: 45%;
+	padding: 5px;
+	margin: 5px;
+}
+.footer__description {
+	@include font_text;
+	color: #FFFFFF;
+}
+.footer__big_imges {}
+.footer__img {}
+.footer__contacts {
+	display: block;
+	width: 45%;
+	padding: 5px;
+	margin: 5px;
+}
+.footer__contacts3 {
+	display: block;
+	width: 45%;
+	padding: 5px;
+	margin: 5px;
 
+}
+.footer__h4 {
+	@include font_h4;
+	color: #FF5300;
+	margin-bottom: 1em;
+}
+.footer__text {
+	@include font_menu;
+	color: #FFFFFF;
+}
+.footer__imges img{
+	margin: 0 5px;
+}
 
+.footer__border{
 
+	border: 1px solid #FFFFFF;
+	max-width: 1170px;
+	height: 0px;
+	margin-left: 68.5px;
+	margin-right: 68.5px;
+}
+@media screen and (max-width: 640px){
+	.grid {
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin-bottom: 1em;
+}
+.gridItems{
+	padding: 0;
+	display: block;
+	text-align: center;
+}
 
+.gridItems__h4 {
+    @include font_h4;
+    padding-bottom: 1em;
+    justify-content: center;
+}
+.gridItems__text {
+	@include font_SmallText;
+	padding-bottom: 1em;
+	justify-content: center;
+}
+.gridItems__bigText {
+	@include font_text;
+	margin-bottom: 2em;
+	
+}
+@media screen and (max-width: 520px){
+	.form {
+	
+	height: 110px;
+	width: 100%;
+	display: block;
+
+}
+.form__input{
+	margin: 10px;
+	max-width: 500px;
+	height: 50px;
+	border: none;	
+	@include font_text;
+
+}
+.form__btn{
+	
+	
+	margin: 5px;
+	align-items: center;
+	padding: 5px 10px;
+}
+	}
+}
 }

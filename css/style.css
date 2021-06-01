@@ -1073,7 +1073,7 @@ a {
 
 .form {
   height: 70px;
-  width: 45%;
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1082,6 +1082,7 @@ a {
           justify-content: space-between;
   background: #FFFFFF;
   border-radius: 5px;
+  margin-right: 20px;
 }
 
 .form__input {
