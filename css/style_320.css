@@ -1,11 +1,6 @@
 @media screen and (max-width: 319px) {
-  .body {
-    max-width: 319px;
-  }
-
   .wrapper {
     max-width: 319px;
-    margin: 0 auto;
     padding: 0 5px;
   }
 
@@ -335,8 +330,8 @@
 
   .result {
     display: block;
-    margin: 0 20px 3em 20px;
-    padding: 20px 10px;
+    margin: 0 0 3em 0;
+    padding: 20px 0px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -426,7 +421,6 @@
   .Subscribe {
     display: block;
     width: 100%;
-    height: auto;
     margin-bottom: 3em;
   }
 
@@ -449,7 +443,7 @@
 
   .form__input {
     margin: 10px;
-    max-width: 500px;
+    max-width: 400px;
     height: 50px;
     border: none;
     display: -webkit-box;

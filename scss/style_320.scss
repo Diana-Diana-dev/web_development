@@ -67,13 +67,10 @@
 	line-height: 188%;
 	color: #373737;
 }
-  .body {
-    max-width: 319px;
-}
+ 
 .wrapper{
     max-width: 319px;
-    margin: 0 auto;
-   padding: 0 5px;
+    padding: 0 5px;
 }
 .header__body{
 	width: 100%;
@@ -219,8 +216,8 @@
 
 .result {
 	display: block;
-	margin: 0 20px 3em 20px;
-    padding: 20px 10px;
+	margin: 0 0 3em 0;
+    padding: 20px 0px;
     align-items: center;
     
 }
@@ -284,8 +281,6 @@
 .Subscribe {
 	display: block;
 	width: 100%;
-	height: auto;
-	// align-items: center;
 	margin-bottom: 3em;
 }
 .Subscribe__text::after {
@@ -305,7 +300,7 @@
 }
 .form__input{
 	margin: 10px;
-	max-width: 500px;
+	max-width: 400px;
 	height: 50px;
 	border: none;	
 	@include font_text;

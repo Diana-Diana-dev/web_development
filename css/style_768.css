@@ -1,8 +1,4 @@
 @media screen and (max-width: 767px) {
-  .body {
-    max-width: 767px;
-  }
-
   .header__menu {
     top: -390%;
     left: -30px;
@@ -11,9 +7,8 @@
   }
 
   .wrapper {
-    max-width: 627px;
-    margin: 0 auto;
-    padding: 0 9.1%;
+    max-width: 767px;
+    padding: 0 70px;
   }
 
   .WhatMatters {
@@ -256,7 +251,7 @@
 
   .OurCapabilities__description {
     width: 100%;
-    padding: 5px 20px 5px 5px;
+    padding: 5px 5px 5px 5px;
   }
 
   .OurCapabilities__h2 {
@@ -309,13 +304,14 @@
     -webkit-box-flex: 0;
         -ms-flex: none;
             flex: none;
-    padding: 5px;
-    margin: 10px;
+    padding-left: 0;
+    margin: 0;
+    padding: 0;
   }
 
   .blog__imges {
     width: 50%;
-    padding: 10px;
+    padding: 0;
   }
 
   .adaptation {
@@ -333,9 +329,7 @@
   .Subscribe {
     display: block;
     width: 100%;
-    height: auto;
     margin-bottom: 3em;
-    padding: 10px;
   }
 
   .Subscribe__name {
@@ -374,7 +368,8 @@
   .form {
     margin-right: 5px;
     height: 60px;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
   }
 
   .form__input {

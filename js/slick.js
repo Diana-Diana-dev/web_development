@@ -13,7 +13,7 @@ $(document).ready(function(){
 		  variableWidth:false,
          responsive: [
         {
-     		 breakpoint: 767,
+     		 breakpoint: 1023,
      		 settings: {
           		slidesToShow: 2,
           		 arrows: false
