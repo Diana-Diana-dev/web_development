@@ -70,10 +70,16 @@
   .body {
     max-width: 767px;
 }
+.header__menu{
+  	top: -390%;
+  	left: -30px;
+  	width: 100%;
+  	height: 270%;
+  }
 .wrapper{
     max-width: 627px;
     margin: 0 auto;
-   
+   padding: 0 9.1%;
 }
 .WhatMatters {
 	display: block;
@@ -218,7 +224,7 @@
 }
 .adaptation1{
 	display: block;
-	width: 50%;
+	width: 45%;
 	padding: 10px;
 }
 .Subscribe {
@@ -272,6 +278,31 @@
 	margin: 5px 5px 5px 0;
 	align-items: center;
 	padding: 5px;
+}
+
+.result {
+	width: 100%;
+	display: block;
+	margin: 0 0px 3em 0px;
+    padding: 20px 0px;
+    align-items: center;
+    
+}
+.resultStatistics {
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 135px;
+	
+}
+.resultStatistics__border {
+	border: 3px solid #FFFFFF;
+	width: 134px;
+	height: 0px; 
+	border-radius: 4px;
+	display: flex;
+	margin: 1em auto;
+
 }
 .footer{
 	padding: 40px 0;
@@ -328,6 +359,46 @@
 	margin-left: 68.5px;
 	margin-right: 68.5px;
 }
+@media screen and (max-width: 650px){
+	.header__logo {
+	
+	padding-left: 50%;
+	
+}
+	.header__btn {
+	position: absolute;
+	right: 0;
+	top: 90px;
+	width: 135px;
+	height: 50px;
+	
+}
+.btn {
+	@include font_menu;
+    padding: 0.3em 0.5em;
+}
+
+@media screen and (max-width: 441px){
+	.footer__about_us {
+	display: block;
+	width: 80%;
+	padding: 5px;
+	margin: 10px 0;
+}
+.footer__contacts {
+	display: block;
+	width: 80%;
+	padding: 5px;
+	margin: 10px 0;
+}
+.footer__contacts3 {
+	display: block;
+	width: 90%;
+	padding: 5px;
+	margin: 10 0px;
+
+}
+
 @media screen and (max-width: 640px){
 	.grid {
 	grid-template-columns: 1fr;
@@ -378,6 +449,8 @@
 	align-items: center;
 	padding: 5px 10px;
 }
-	}
+}
+}
+}
 }
 }

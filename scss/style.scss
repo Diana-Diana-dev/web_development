@@ -98,6 +98,7 @@ a{
 
 }
 .header__body {
+	width: 100%;
 	position: relative;
 	display: flex;
 	justify-content: space-between;
@@ -135,14 +136,19 @@ a{
 	transform: scale(1.2);
 }
 .header__btn {
-	right: 0;
-	// width: 135px;
-	// height: 50px;
-	width: 18%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	width: 135px;
+	height: 50px;
+
 }
 .btn {
 	@include font_menu;
     padding: 0.5em 0.8em;
+   
 }
 
 .WhatMatters {
