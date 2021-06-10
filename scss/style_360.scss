@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px){
+@media screen and (max-width: 360px){
 
 @mixin font_menu{
 	display: flex;
@@ -69,7 +69,7 @@
 }
  
 .wrapper{
-    max-width: 319px;
+    max-width: 359px;
     padding: 0 5px;
 }
 .header__body{
