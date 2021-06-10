@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px){
+@media screen and (max-width: 321px){
 
 @mixin font_menu{
 	display: flex;
@@ -81,8 +81,11 @@
   
   	left: 2px;
   	width: 100%;
-    z-index: 10;
+  	height: 200%;
+    z-index: 20;
   }
+
+  
 
 .header__logo {
 	
