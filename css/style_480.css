@@ -484,6 +484,7 @@
   }
 
   .form {
+    margin: 5px 0;
     height: 110px;
     width: 100%;
     display: block;
