@@ -144,8 +144,8 @@
     font-family: "Noto Sans KR", sans-serif;
     font-style: bold;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 150%;
+    font-size: 22px;
+    line-height: 130%;
     color: #373737;
     padding-bottom: 1em;
     -webkit-box-pack: center;
@@ -361,7 +361,7 @@
   }
 
   .OurCapabilities__description {
-    padding: 5px 20px 5px 5px;
+    padding: 5px 5px 5px 5px;
   }
 
   .OurCapabilities__h2 {
