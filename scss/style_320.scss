@@ -1,4 +1,4 @@
-@media screen and (max-width: 319px){
+@media screen and (max-width: 320px){
 
 @mixin font_menu{
 	display: flex;
@@ -173,6 +173,10 @@
 	margin-bottom: 0;
 	text-align: center;
 
+}
+.OurProject__grid{
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .OurProject__menu {

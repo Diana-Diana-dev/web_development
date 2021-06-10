@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header__menu {
     top: -390%;
     left: -30px;
@@ -525,7 +525,7 @@
     margin-right: 68.5px;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 650px) {
+@media screen and (max-width: 768px) and (max-width: 650px) {
   .header__logo {
     padding-left: 50%;
   }
@@ -551,7 +551,7 @@
     padding: 0.3em 0.5em;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 650px) and (max-width: 441px) {
+@media screen and (max-width: 768px) and (max-width: 650px) and (max-width: 441px) {
   .footer__about_us {
     display: block;
     width: 80%;
@@ -573,7 +573,7 @@
     margin: 10 0px;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 650px) and (max-width: 441px) and (max-width: 640px) {
+@media screen and (max-width: 768px) and (max-width: 650px) and (max-width: 441px) and (max-width: 640px) {
   .grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -657,7 +657,7 @@
     margin-bottom: 2em;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 650px) and (max-width: 441px) and (max-width: 640px) and (max-width: 520px) {
+@media screen and (max-width: 768px) and (max-width: 650px) and (max-width: 441px) and (max-width: 640px) and (max-width: 520px) {
   .form {
     height: 110px;
     width: 100%;

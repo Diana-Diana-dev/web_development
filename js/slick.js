@@ -13,16 +13,17 @@ $(document).ready(function(){
 		  variableWidth:false,
          responsive: [
         {
-     		 breakpoint: 1023,
+     		 breakpoint: 1024,
      		 settings: {
           		slidesToShow: 2,
           		 arrows: false
           	}
          },
          {
-         	breakpoint: 319,
+         	breakpoint: 768,
      		 settings: {
-          		slidesToShow: 1
+          		slidesToShow: 1,
+              arrows: false
          }
      }
         ]
