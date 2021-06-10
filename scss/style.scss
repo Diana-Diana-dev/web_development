@@ -703,20 +703,20 @@ a{
 
 .footer{
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(Daco_1772774.png);
-	width: 100%;
+	max-width: 1440px;
 	padding: 60px 0;
 }
 .footer-block {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 3em;
-	margin-left: 4.7%;
-	margin-right: 4.7%;
+	margin-left: 135px;
+	margin-right: 135px;
 
 }
 .footer__about_us {
 	display: block;
-	width: 23%;
+	width: 22%;
 	padding: 5px;
 	margin: 5px;
 }
@@ -728,13 +728,13 @@ a{
 .footer__img {}
 .footer__contacts {
 	display: block;
-	width: 22%;
+	width: 21%;
 	padding: 5px;
 	margin: 5px;
 }
 .footer__contacts3 {
 	display: block;
-	width: 50%;
+	width: 33%;
 	padding: 5px;
 	margin: 5px;
 
@@ -753,12 +753,13 @@ a{
 }
 
 .footer__border{
-
+	display: flex;
+	margin: 0 auto;
 	border: 1px solid #FFFFFF;
 	max-width: 1170px;
 	height: 0px;
-	margin-left: 68.5px;
-	margin-right: 68.5px;
+	// margin-left: 68.5px;
+	// margin-right: 68.5px;
 }
 
 
