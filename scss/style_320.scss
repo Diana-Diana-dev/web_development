@@ -350,6 +350,44 @@
 	margin-bottom: 0.5em;
 }
 
+.modal .modal-wrapper {
+	width: 90%;
+	height: 80%;
+	max-width: 400px;
+	min-height: 280px;
+	top: 5%;
+	
+}
+.modal-header {
+	padding: 20px;
+}
+.closeBtn {
+	cursor: pointer;
+	float: right;
+	font-size: 40px;
+	color: black;
+
+}
+.modal-body {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+	margin-top: 1em;
+	display: flex;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: bold;
+	font-weight: 700;
+	font-size: 39px;
+	line-height: 150%;
+	color: #373737;
+}
+.modal-footer {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
 
 
 
