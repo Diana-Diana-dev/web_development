@@ -1,6 +1,6 @@
 @media screen and (max-width: 320px) {
   .wrapper {
-    max-width: 309px;
+    max-width: 310px;
     padding: 0 5px;
   }
 
@@ -560,7 +560,7 @@
   .modal .modal-wrapper {
     width: 90%;
     height: 60%;
-    max-width: 310px;
+    max-width: 280px;
     min-height: 280px;
     top: 5%;
   }
