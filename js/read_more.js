@@ -12,11 +12,11 @@ function readMore(){
 if(dots.style.display === "none") {
 	dots.style.display = "inline";
 	more.style.display = "none";
-	buttonText.innerHTML = "Читать полностью";
+	buttonText.innerHTML = "Read More";
 }else{
 	dots.style.display = "none";
 	more.style.display = "block";
-	buttonText.innerHTML = "Скрыть";
+	buttonText.innerHTML = "Read Less";
 
 	 
 }
@@ -36,11 +36,11 @@ function readMore2(){
 if(dots2.style.display === "none") {
 	dots2.style.display = "inline";
 	more2.style.display = "none";
-	buttonText2.innerHTML = "Читать полностью";
+	buttonText2.innerHTML = "Read More";
 }else{
 	dots2.style.display = "none";
 	more2.style.display = "block";
-	buttonText2.innerHTML = "Скрыть";
+	buttonText2.innerHTML = "Read Less";
 	
 }
 }
@@ -58,11 +58,11 @@ function readMore3(){
 if(dots3.style.display === "none") {
 	dots3.style.display = "inline";
 	more3.style.display = "none";
-	buttonText3.innerHTML = "Читать полностью";
+	buttonText3.innerHTML = "Read More";
 }else{
 	dots3.style.display = "none";
 	more3.style.display = "block";
-	buttonText3.innerHTML = "Скрыть";
+	buttonText3.innerHTML = "Read Less";
 	
 }
 }
