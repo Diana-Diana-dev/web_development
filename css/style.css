@@ -1261,7 +1261,7 @@ a {
   transition: all 0.8s ease 0s;*/
 }
 
-.modal .modal-wrapper {
+.modal-wrapper {
   width: 50%;
   height: 40%;
   max-width: 400px;

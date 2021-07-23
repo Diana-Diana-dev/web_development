@@ -526,9 +526,7 @@
     margin-right: 68.5px;
   }
 
-  .modal .modal-wrapper {
-    width: 70%;
-    height: 60%;
+  .modal-wrapper {
     max-width: 400px;
     min-height: 300px;
     top: 10%;
